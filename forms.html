@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X -UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            display:flex;
+            flex-direction:column;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <h1>Forms</h1>
+<section>
+
+        <!--https://www.google.com/search?q=</chickens-->
+
+              <form action="https://google.com/" method="get">
+            
+            <label for="q">Search Query</label>
+            <input type="text" name="q" placeholder="Search Query">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+           
+            <label for="password">Password</label>
+            <input type="password" name="pass" id="pass" placeholder="Password" required>
+      
+            
+            <button type="submit"> Google search</button><button</button></button>
+        </form>
+</section>
+<section>
+    <h2>Complex Form</h2>
+    <form>
+        <legend>Personal Info</legend>
+        <fieldset>
+            <label for="first name>First Name"</label>
+            <label type="text" name="firstName" id="firstName" required>
+             
+            <label for="last name>lastName"</label>
+             label type="text" name="lastName" id="lastName" required>
+            
+             <label for="dob>DAte of Birth"</label>
+            <label type="text" name="dob" id="dob" required>
+             </fieldset>
+            
+            <label for="email">Email"</label>
+            <label type="email" name="email" id="email" required>
+            
+            <label for="pass">Password"</label>
+            <label type="password" name="pass" id="pass" required>
+            <label for="passConfirm">Confirm Password</label>
+            <label type="password" name="passConfirm" id="passConfirm" required>
+            <label for="eulaCheckbox">I agree to the <a href="#">EULA</a>
+
+            
+           
+           
+            </label>
+        </fieldset>
+        <legend>Comments</legend>
+        <button type="reset">Reset Form</button>
+        <button type="submit">Submit Form</button>
+    </form>
+</section>
+    </body>
+
+    </html>
